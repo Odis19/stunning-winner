@@ -1,0 +1,118 @@
+@charset "UTF-8";
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: rgb(223, 224, 205);
+}
+.nav-main {
+    background-color: rgb(205,216, 156);
+    text-align: center;
+}
+.nav-item {
+    display: inline-block;
+}
+.nav-item a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: #a8a69d;
+    padding: 20px;
+    margin: 45px;
+    border-radius: 10px;
+    display: inline-block;
+}
+.about_me {
+    margin-bottom: 50px;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+       }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+     }
+}
+.main-content {
+    background-color: rgb(205,216, 156);
+    text-align: center;
+    color: rgb(148, 150, 142);
+    margin-bottom: 15px;
+    padding-top: 10px;
+}
+.play_game {
+    padding-bottom: 10px;
+}
+.image{
+    border-radius: 9px;
+    margin-bottom: 20px;
+}
+.about_game{
+    margin-bottom: 50px;
+    font-size: 130%;
+    animation-duration: 5s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+.nice_game{
+    font-size: 150%;
+    animation-duration: 7s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+.footer-content{
+    text-align: center;
+    background-color: rgb(205,216, 156);
+    padding-top: 20px;
+
+}
+.feed_back-name{
+    border-radius: 10px;
+    font-size: 130%;
+    color: rgb(148, 150, 142);
+    margin-left: 9px;
+}
+.feed_back-email {
+    border-radius: 10px;
+    font-size: 130%;
+    color: rgb(148, 150, 142);
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.feed_back-summary{
+    border-radius: 10px;
+    font-size: 130%;
+    color: rgb(148, 150, 142);
+    margin-right: 10px;
+}
+.feed_back-summary_1{
+    border-radius: 10px;
+    font-size: 130%;
+    color: rgb(148, 150, 142);
+    margin-right: 200px;
+}

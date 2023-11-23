@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="C:\Users\user\PROMETHEUS (WORKSPACE)\Week 2\portfolio-website\font-awesome\css\solid.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mini-game_2048</title>
+        <link rel="icon" type="image/png" sizes="16x16" href="./2048png.png">
+    </head>
+    <body>
+        <header>
+            <nav class="nav-main">
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="#about_me">Про мене</a></li>
+                    <li class="nav-item"><a href="#about_game">Про гру</a></li>
+                    <li class="nav-item"><a href="#play_game">Зіграємо!</a></li>
+                    <li class="nav-item"><a href="#feed_back">Зворотній зв'язок</a></li>
+                </ul>
+            </nav>
+            <span class="fa-solid fa-gamepad"></span>  
+        </header>
+        <main class="main-content">
+            <section>
+                <h2 class="about_me" id="about_me">Вітання! Я початківець, front - end розробник. Це мій сайт з грою 2048. Ласкаво просимо!</h2>
+                <h4 class="about_game" id="about_game">Натисканням стрілки гравець може скинути всі плитки ігрового поля в одну із чотирьох сторін. Якщо при скиданні дві плитки одного номіналу «налітають» одна на іншу, то вони перетворюються на одну, номінал якої дорівнює сумі плиток, що з'єдналися.</h4>
+                <h5 class="nice_game">Приємної гри</h5>
+            </section>
+            <section class="play_game" id="play_game">
+                <img class="image" src="20481.png" alt="Геймплєй">
+                <img class="image" src="20482.png" alt="Геймплєй">
+                <img class="image" src="image1s.png" alt="Геймплєй">
+                <img class="image" src="images2.png" alt="Геймплєй">
+            </section>
+        </main>
+        <footer class="footer-content">
+            <form action="/handling-form-page" method="post">
+                <div id="feed_back">
+                    <label class="feed_back-name" for="name">Ім'я:</label>
+                    <input class="feed_back-name" type="text" id="name" name="user_name">
+                </div>
+                <div>
+                    <label class="feed_back-email" for="email">Email:</label>
+                    <input class="feed_back-email" type="email" id="email" name="user_email">
+                    <p><button type="submit">Send</button></p>
+                </div>
+                <div>
+                    <label class="feed_back-summary" for="summary">Повідомлення:</label>
+                    <textarea class="feed_back-summary_1" id="summary" cols="50" rows="4"></textarea>
+                    <p><button type="submit">Send</button></p>
+                </div>
+            </form>
+        </footer>
+    </body>
+
+</html>
